@@ -1,0 +1,29 @@
+Model,Attribute,Group,n,Prev. %,AUC,TPR,FPR,Pred−obs (pp)
+"Full (+ occupation, EEI)",Occupation,Driver (AC),750,68.3,0.490,0.97,0.97,+2.1
+"Full (+ occupation, EEI)",Occupation,Driver (non-AC),750,65.1,0.512,0.93,0.94,+1.4
+"Full (+ occupation, EEI)",Occupation,Rickshaw/biker,750,68.9,0.448,0.99,0.99,+2.3
+"Full (+ occupation, EEI)",Occupation,Police/FF/guard,750,80.1,0.510,0.99,1.00,+0.9
+"Full (+ occupation, EEI)",Occupation,Business owner,1399,64.1,1.000,1.00,0.00,-0.0
+"Full (+ occupation, EEI)",Occupation,Student,2027,3.6,0.853,0.01,0.00,+0.1
+"Full (+ occupation, EEI)",Sex,Male,3412,43.3,0.916,0.94,0.21,+0.7
+"Full (+ occupation, EEI)",Sex,Female,2799,51.4,0.901,0.98,0.30,+0.9
+"Full (+ occupation, EEI)",Sex,Intersex,215,80.0,0.473,0.99,1.00,+1.3
+"Full (+ occupation, EEI)",Housing,Low-quality,2557,59.8,0.827,0.96,0.44,+1.1
+"Full (+ occupation, EEI)",Housing,Standard,3869,40.3,0.940,0.96,0.18,+0.7
+"Full (+ occupation, EEI)",Age,<30,1838,27.3,0.935,0.94,0.13,+0.7
+"Full (+ occupation, EEI)",Age,30-44,2525,49.9,0.899,0.94,0.27,+0.9
+"Full (+ occupation, EEI)",Age,45+,2063,64.2,0.855,0.98,0.46,+0.8
+Exposure + demographics,Occupation,Driver (AC),750,68.3,0.494,0.97,0.98,+2.6
+Exposure + demographics,Occupation,Driver (non-AC),750,65.1,0.478,0.94,0.97,+0.8
+Exposure + demographics,Occupation,Rickshaw/biker,750,68.9,0.455,0.95,0.97,+0.7
+Exposure + demographics,Occupation,Police/FF/guard,750,80.1,0.485,0.99,1.00,-1.5
+Exposure + demographics,Occupation,Business owner,1399,64.1,1.000,1.00,0.00,+0.6
+Exposure + demographics,Occupation,Student,2027,3.6,0.816,0.07,0.00,+1.1
+Exposure + demographics,Sex,Male,3412,43.3,0.910,0.93,0.21,+0.6
+Exposure + demographics,Sex,Female,2799,51.4,0.896,0.97,0.31,+0.9
+Exposure + demographics,Sex,Intersex,215,80.0,0.507,1.00,1.00,+1.1
+Exposure + demographics,Housing,Low-quality,2557,59.8,0.814,0.96,0.44,+0.9
+Exposure + demographics,Housing,Standard,3869,40.3,0.938,0.95,0.18,+0.7
+Exposure + demographics,Age,<30,1838,27.3,0.931,0.92,0.13,+0.6
+Exposure + demographics,Age,30-44,2525,49.9,0.892,0.94,0.28,+0.9
+Exposure + demographics,Age,45+,2063,64.2,0.850,0.98,0.46,+0.7

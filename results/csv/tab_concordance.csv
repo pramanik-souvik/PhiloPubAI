@@ -1,0 +1,8 @@
+Comparison,k,Spearman ρ,p
+Vehicle: EEI weights vs Layer-1 modifiers (expert vs expert),7,0.27,0.554
+Vehicle: EEI weights vs crude prevalence (workers),7,0.05,0.908
+Vehicle: Layer-1 modifiers vs crude prevalence (workers),7,0.20,0.670
+Vehicle: EEI weights vs mean SHAP (exposure model),7,0.20,0.670
+Occupation: EEI weights vs Layer-1 tiers (expert vs expert),6,0.88,0.020
+Occupation: EEI weights vs crude prevalence,6,0.89,0.019
+Occupation: EEI weights vs adjusted OR,6,0.60,0.208

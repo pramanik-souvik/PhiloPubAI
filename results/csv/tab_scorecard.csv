@@ -1,0 +1,19 @@
+ID,Indicator,Value,Criterion,Status
+E1,"Label–source association (Cramér’s V, confirmed coding)",0.49,≤ 0.30,Partial
+E2,Outcome labels exclusive to one source,11,0,Not met
+E3,"Discrimination attributable to occupation alone (%, scen. B)",75,≤ 50,Partial
+E4,Distinct ambient PM2.5 values across zones,2,≥ 10,Not met
+E5,Single-variable labelling artefacts within a source,1,0,Not met
+J1,Gap across groups in no-disease status left blank (pp),35,≤ 10,Not met
+J2,Respondents with ambient PM2.5 (CAMS) coverage (%),50,≥ 90,Partial
+J3,TPR gap across occupations (exposure model),0.93,≤ 0.10,Not met
+J4,FPR gap across occupations (exposure model),1,≤ 0.10,Not met
+G1,"SHAP rank stability across folds (ρ, full model)",0.96,≥ 0.80,Met
+G2,"Cross-method importance agreement (ρ, full model)",0.76,≥ 0.70,Met
+G3,"Expert–data concordance, vehicle (ρ, EEI vs prevalence)",0.05,≥ 0.50,Not met
+G4,"Records unique on age, sex, occupation, living area (%)",31,≤ 5,Not met
+L1,"Exposure-model AUC, pooled (scen. B)",0.90,≥ 0.70,Met
+L2,"Exposure-model AUC within occupations (mean, artefact-corrected, scen. B)",0.56,≥ 0.70,Not met
+L3,"Transfer AUC to unseen occupation (mean, scen. B)",0.49,≥ 0.65,Not met
+L4,"Calibration error, ECE (exposure model, scen. B)",0.04,≤ 0.05,Met
+L5,Thresholds 0.1–0.5 with net benefit > treat-all/none (%),100,≥ 80,Met

@@ -1,0 +1,49 @@
+\begin{tabular}{lllrrrrr}
+\toprule
+Scen. & Features & Model & Any-disease AUC & Any-disease AP & Brier & Category macro-F1 & Category AUC \\
+\midrule
+A & Prior (no features) & Prior & 0.500 $\pm$ 0.000 & 0.612 $\pm$ 0.000 & 0.237 $\pm$ 0.000 & 0.112 $\pm$ 0.000 & 0.500 $\pm$ 0.000 \\
+\midrule
+A & Occupation only & LR & 0.988 $\pm$ 0.002 & 0.991 $\pm$ 0.002 & 0.014 $\pm$ 0.002 & 0.472 $\pm$ 0.011 & 0.886 $\pm$ 0.006 \\
+A & Occupation only & RF & 0.988 $\pm$ 0.002 & 0.991 $\pm$ 0.002 & 0.014 $\pm$ 0.002 & 0.472 $\pm$ 0.011 & 0.886 $\pm$ 0.006 \\
+A & Occupation only & XGB & 0.988 $\pm$ 0.002 & 0.991 $\pm$ 0.002 & 0.014 $\pm$ 0.002 & 0.472 $\pm$ 0.011 & 0.886 $\pm$ 0.006 \\
+\midrule
+A & Demographics only & LR & 0.842 $\pm$ 0.010 & 0.906 $\pm$ 0.006 & 0.163 $\pm$ 0.005 & 0.291 $\pm$ 0.012 & 0.732 $\pm$ 0.008 \\
+A & Demographics only & RF & 0.879 $\pm$ 0.011 & 0.928 $\pm$ 0.008 & 0.140 $\pm$ 0.007 & 0.319 $\pm$ 0.013 & 0.736 $\pm$ 0.011 \\
+A & Demographics only & XGB & 0.885 $\pm$ 0.010 & 0.934 $\pm$ 0.006 & 0.138 $\pm$ 0.006 & 0.318 $\pm$ 0.013 & 0.756 $\pm$ 0.008 \\
+\midrule
+A & Exposure only & LR & 0.993 $\pm$ 0.002 & 0.997 $\pm$ 0.001 & 0.019 $\pm$ 0.002 & 0.489 $\pm$ 0.015 & 0.881 $\pm$ 0.006 \\
+A & Exposure only & RF & 0.995 $\pm$ 0.002 & 0.997 $\pm$ 0.001 & 0.016 $\pm$ 0.002 & 0.519 $\pm$ 0.017 & 0.897 $\pm$ 0.005 \\
+A & Exposure only & XGB & 0.995 $\pm$ 0.002 & 0.998 $\pm$ 0.001 & 0.014 $\pm$ 0.003 & 0.526 $\pm$ 0.016 & 0.896 $\pm$ 0.005 \\
+\midrule
+A & Exposure + demographics & LR & 0.994 $\pm$ 0.002 & 0.997 $\pm$ 0.001 & 0.018 $\pm$ 0.002 & 0.487 $\pm$ 0.017 & 0.882 $\pm$ 0.005 \\
+A & Exposure + demographics & RF & 0.996 $\pm$ 0.001 & 0.998 $\pm$ 0.001 & 0.016 $\pm$ 0.002 & 0.518 $\pm$ 0.020 & 0.899 $\pm$ 0.005 \\
+A & Exposure + demographics & XGB & 0.996 $\pm$ 0.001 & 0.998 $\pm$ 0.001 & 0.014 $\pm$ 0.003 & 0.524 $\pm$ 0.021 & 0.899 $\pm$ 0.006 \\
+\midrule
+A & Full (+ occupation, EEI) & LR & 0.995 $\pm$ 0.002 & 0.997 $\pm$ 0.001 & 0.014 $\pm$ 0.002 & 0.495 $\pm$ 0.019 & 0.892 $\pm$ 0.005 \\
+A & Full (+ occupation, EEI) & RF & 0.996 $\pm$ 0.001 & 0.998 $\pm$ 0.001 & 0.013 $\pm$ 0.002 & 0.513 $\pm$ 0.019 & 0.901 $\pm$ 0.005 \\
+A & Full (+ occupation, EEI) & XGB & 0.997 $\pm$ 0.001 & 0.998 $\pm$ 0.001 & 0.012 $\pm$ 0.003 & 0.525 $\pm$ 0.020 & 0.903 $\pm$ 0.005 \\
+\midrule
+B & Prior (no features) & Prior & 0.500 $\pm$ 0.000 & 0.481 $\pm$ 0.000 & 0.250 $\pm$ 0.000 & 0.137 $\pm$ 0.000 & 0.500 $\pm$ 0.000 \\
+\midrule
+B & Occupation only & LR & 0.804 $\pm$ 0.011 & 0.720 $\pm$ 0.014 & 0.157 $\pm$ 0.006 & 0.368 $\pm$ 0.009 & 0.781 $\pm$ 0.010 \\
+B & Occupation only & RF & 0.804 $\pm$ 0.011 & 0.720 $\pm$ 0.014 & 0.157 $\pm$ 0.006 & 0.368 $\pm$ 0.009 & 0.780 $\pm$ 0.007 \\
+B & Occupation only & XGB & 0.804 $\pm$ 0.012 & 0.720 $\pm$ 0.015 & 0.157 $\pm$ 0.006 & 0.368 $\pm$ 0.009 & 0.780 $\pm$ 0.007 \\
+\midrule
+B & Demographics only & LR & 0.717 $\pm$ 0.009 & 0.702 $\pm$ 0.014 & 0.215 $\pm$ 0.003 & 0.218 $\pm$ 0.011 & 0.660 $\pm$ 0.009 \\
+B & Demographics only & RF & 0.760 $\pm$ 0.010 & 0.740 $\pm$ 0.010 & 0.198 $\pm$ 0.004 & 0.264 $\pm$ 0.010 & 0.688 $\pm$ 0.010 \\
+B & Demographics only & XGB & 0.770 $\pm$ 0.011 & 0.753 $\pm$ 0.011 & 0.193 $\pm$ 0.004 & 0.272 $\pm$ 0.009 & 0.703 $\pm$ 0.009 \\
+\midrule
+B & Exposure only & LR & 0.794 $\pm$ 0.011 & 0.711 $\pm$ 0.016 & 0.165 $\pm$ 0.004 & 0.371 $\pm$ 0.012 & 0.802 $\pm$ 0.008 \\
+B & Exposure only & RF & 0.803 $\pm$ 0.011 & 0.716 $\pm$ 0.017 & 0.160 $\pm$ 0.005 & 0.402 $\pm$ 0.016 & 0.824 $\pm$ 0.006 \\
+B & Exposure only & XGB & 0.798 $\pm$ 0.013 & 0.711 $\pm$ 0.019 & 0.162 $\pm$ 0.006 & 0.407 $\pm$ 0.015 & 0.822 $\pm$ 0.007 \\
+\midrule
+B & Exposure + demographics & LR & 0.847 $\pm$ 0.009 & 0.765 $\pm$ 0.016 & 0.151 $\pm$ 0.004 & 0.389 $\pm$ 0.011 & 0.821 $\pm$ 0.007 \\
+B & Exposure + demographics & RF & 0.904 $\pm$ 0.007 & 0.886 $\pm$ 0.007 & 0.111 $\pm$ 0.004 & 0.457 $\pm$ 0.016 & 0.867 $\pm$ 0.006 \\
+B & Exposure + demographics & XGB & 0.901 $\pm$ 0.007 & 0.883 $\pm$ 0.008 & 0.113 $\pm$ 0.004 & 0.461 $\pm$ 0.016 & 0.864 $\pm$ 0.006 \\
+\midrule
+B & Full (+ occupation, EEI) & LR & 0.857 $\pm$ 0.010 & 0.769 $\pm$ 0.017 & 0.140 $\pm$ 0.005 & 0.405 $\pm$ 0.011 & 0.839 $\pm$ 0.006 \\
+B & Full (+ occupation, EEI) & RF & 0.908 $\pm$ 0.006 & 0.891 $\pm$ 0.007 & 0.109 $\pm$ 0.004 & 0.457 $\pm$ 0.018 & 0.870 $\pm$ 0.005 \\
+B & Full (+ occupation, EEI) & XGB & 0.906 $\pm$ 0.007 & 0.888 $\pm$ 0.007 & 0.110 $\pm$ 0.005 & 0.461 $\pm$ 0.016 & 0.869 $\pm$ 0.005 \\
+\bottomrule
+\end{tabular}

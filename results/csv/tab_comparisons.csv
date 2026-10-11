@@ -1,0 +1,9 @@
+Scen.,"Comparison (XGBoost, AUC)",ΔAUC,t,p
+A,Occupation + EEI over exposure + demographics,+0.000,1.25,0.223
+A,Exposure over demographics,+0.112,19.45,<0.001
+A,All features over occupation only,+0.008,8.96,<0.001
+A,Exposure only vs occupation only,+0.007,7.58,<0.001
+B,Occupation + EEI over exposure + demographics,+0.005,2.56,0.017
+B,Exposure over demographics,+0.131,18.79,<0.001
+B,All features over occupation only,+0.102,21.80,<0.001
+B,Exposure only vs occupation only,-0.006,-1.65,0.112

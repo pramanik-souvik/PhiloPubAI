@@ -1,0 +1,46 @@
+{
+  "config": {
+    "DATA_PATH": "data.csv",
+    "PM25_LOOKUP": "area_pm25_lookup_fixed.csv",
+    "OUT_DIR": "paper\\generated",
+    "SEED": 42,
+    "N_SPLITS": 5,
+    "N_REPEATS": 5,
+    "N_TREES": 300,
+    "FAST": false,
+    "DEDUP": true,
+    "Y_TO_UNSPECIFIED": true,
+    "PRIMARY": "B",
+    "THRESH": 0.5,
+    "N_EEI_DRAWS": 1000,
+    "N_PERM": 5
+  },
+  "python": "3.13.9 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 19:09:58) [MSC v.1929 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "sklearn": "1.7.2",
+    "xgboost": "3.4.1",
+    "shap": "0.52.0",
+    "statsmodels.api": "0.14.5",
+    "matplotlib": "3.10.6",
+    "seaborn": "0.13.2"
+  },
+  "scenarios": {
+    "A": {
+      "n_unknown": 1756,
+      "n_before_dedup": 5843,
+      "n_dups": 801,
+      "n": 5042
+    },
+    "B": {
+      "n_unknown": 1756,
+      "n_before_dedup": 7599,
+      "n_dups": 1173,
+      "n": 6426
+    }
+  },
+  "runtime_min": 10.706495495637258,
+  "n_numbers": 568
+}

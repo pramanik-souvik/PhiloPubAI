@@ -1,0 +1,11 @@
+Model,Intervention,n,Mean Δ risk (pp),Median Δ (pp),Crossed below threshold %,Mean Δ excl. business owners (pp)
+"Full (+ occupation, EEI)",AC access,3786,+1.0,+0.0,0.0,+1.4
+"Full (+ occupation, EEI)",Smoking cessation,3786,-22.8,+0.0,24.0,+0.1
+"Full (+ occupation, EEI)",Halve travel time,3786,+0.3,+0.0,0.6,+0.3
+"Full (+ occupation, EEI)",Enclosed transport,3786,+0.7,+0.0,0.5,+0.9
+"Full (+ occupation, EEI)",All four combined,3786,-26.1,-7.1,26.7,-4.0
+Exposure + demographics,AC access,3841,+2.0,+0.0,0.0,+3.3
+Exposure + demographics,Smoking cessation,3841,-22.2,+0.0,24.2,-1.4
+Exposure + demographics,Halve travel time,3841,-1.8,+0.0,5.4,-2.4
+Exposure + demographics,Enclosed transport,3841,-0.9,-0.2,1.3,-1.0
+Exposure + demographics,All four combined,3841,-25.2,-8.3,33.7,-7.5

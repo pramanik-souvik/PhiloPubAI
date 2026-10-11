@@ -1,0 +1,12 @@
+Group,Pop. share %,Top-EEI-quintile share %,Mean EEI,Travel h,No disease left blank %,CAMS PM2.5 covered %
+Driver (AC),9.9,0.0,42.5,8.05,31.7,72.0
+Driver (non-AC),9.9,49.3,64.4,8.01,34.9,73.6
+Rickshaw/biker,9.9,40.9,58.1,2.48,31.1,72.4
+Police/FF/guard,9.9,9.8,51.2,2.51,19.9,73.6
+Business owner,32.9,0.0,39.8,0.81,35.0,24.2
+Student,27.6,0.0,37.0,2.57,0.0,48.8
+Low-quality,39.8,53.0,48.8,3.40,23.7,50.3
+Standard,60.2,47.0,41.9,2.83,22.7,50.2
+Male,52.0,49.9,44.2,3.11,20.6,48.7
+Female,45.1,47.2,44.7,3.02,26.2,50.5
+Intersex,2.8,3.0,51.2,2.56,20.0,74.0

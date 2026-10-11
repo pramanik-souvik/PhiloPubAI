@@ -1,0 +1,16 @@
+Label,Driver (AC),Driver (non-AC),Rickshaw/biker,Police/FF/guard,Business owner,Student,Total
+No Disease,238,262,233,149,502,1954,3338
+Asthma,259,249,227,138,138,8,1019
+Tuberculosis,253,239,290,136,86,0,1004
+Bronchitis,0,0,0,175,0,0,175
+Allergy,0,0,0,152,0,0,152
+Fungal Lung Infections,0,0,0,0,114,0,114
+Lung Cancer,0,0,0,0,110,0,110
+Chronic Bronchitis,0,0,0,0,87,0,87
+Cystic Fibrosis,0,0,0,0,85,0,85
+Mesothelioma,0,0,0,0,83,0,83
+Sarcoidosis,0,0,0,0,70,0,70
+Pneumonia,0,0,0,0,67,0,67
+Unspecified,0,0,0,0,0,65,65
+Bronchiectasis,0,0,0,0,57,0,57
+of which: no disease left blank,238,262,233,149,502,0,1384

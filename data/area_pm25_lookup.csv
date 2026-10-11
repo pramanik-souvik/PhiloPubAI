@@ -1,0 +1,78 @@
+area,lat,lon,pm25_avg,shared_grid_cell
+Gulistan,23.7272,90.4125,47.6447290528233,True
+Banani,23.7937,90.4066,47.6447290528233,True
+Kamalapur,23.7333,90.4265,47.6447290528233,True
+Farmgate,23.7565,90.3897,47.6447290528233,True
+Khilgaon,23.7443,90.4262,47.6447290528233,True
+Azimpur,23.728,90.3833,47.6447290528233,True
+Uttara,23.8759,90.3795,46.54918032786876,True
+Jatrabari,23.7104,90.4331,47.6447290528233,True
+Rampura,23.7583,90.4218,47.6447290528233,True
+Shyamoli,23.7698,90.3654,47.6447290528233,True
+Dhanmondi,23.7461,90.3742,47.6447290528233,True
+Mohakhali,23.7788,90.4046,47.6447290528233,True
+Badda,23.7805,90.426,47.6447290528233,True
+Tejgaon,23.7629,90.3925,47.6447290528233,True
+Banasree,23.7649,90.4271,47.6447290528233,True
+Malibagh,,,,False
+Mohammadpur,23.7657,90.3588,47.6447290528233,True
+Mirpur,23.8223,90.3654,46.54918032786876,True
+Kallyanpur,,,,False
+Motijheel,,,,False
+Gulshan,23.7925,90.4078,47.6447290528233,True
+Sahjanpur,,,,False
+Bosila,,,,False
+Kaffrul,,,,False
+Paltan,,,,False
+Bongshal,,,,False
+Hazaribagh,,,,False
+Shahbagh,,,,False
+Tongi,23.8912,90.4023,46.54918032786876,True
+Wari,,,,False
+Vasantek,,,,False
+Pallabi,,,,False
+Ramna,,,,False
+Adabor,,,,False
+Dakkhin Khan,,,,False
+Kalabagan,,,,False
+Askona,,,,False
+Abdullahpur,,,,False
+Sutrapur,,,,False
+Mugda,,,,False
+Khilkhet,,,,False
+Tejkunipara,,,,False
+Lalbag,,,,False
+Gendaria,,,,False
+Bashundhara R/A,23.8151,90.426,46.54918032786876,True
+Old Dhaka,,,,False
+Keraniganj,,,,False
+Gabtoli,,,,False
+Kuril,,,,False
+Kamarpara,,,,False
+Baridhara,,,,False
+Kamrangirchar,,,,False
+Shahjadpur,,,,False
+Agargaon,,,,False
+Hajaribag,,,,False
+EPZ,,,,False
+Karwan Bazar,,,,False
+Panthapath,,,,False
+Mirpur DOHS,,,,False
+Tejgaon I/A,,,,False
+Mohakhali DOHS,,,,False
+Dilkusha,,,,False
+Niketan,,,,False
+Banani DOHS,,,,False
+Kakrail,,,,False
+Moghbazar,,,,False
+Naya Paltan,,,,False
+Notun Bazar,,,,False
+Elephant Road,,,,False
+Green Road,,,,False
+Eskaton,,,,False
+Airport Road,,,,False
+Tejgaon Industrial Area,,,,False
+Demra,,,,False
+Savar,,,,False
+Narayanganj,,,,False
+Gazipur,,,,False
